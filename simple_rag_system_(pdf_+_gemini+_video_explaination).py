@@ -1,8 +1,6 @@
-"# Simple RAG System (PDF + Gemini)
-Upload a PDF, ask questions about it. Uses Gemini for both embeddings and answer generation — no other AI service needed.
+"# Simple RAG System (PDF + Gemini) Upload a PDF, ask questions about it. Uses Gemini for both embeddings and answer generation — no other AI service needed.
 
 ## 1. Install dependencies
-"""
 
 !pip install -q google-generativeai pypdf
 
