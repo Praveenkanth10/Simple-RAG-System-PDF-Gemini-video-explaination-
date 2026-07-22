@@ -21,9 +21,6 @@ User Question → Embed Query → Retrieve Top-K Similar Chunks
 5. **Retrieve** — embeds the user's question and finds the most relevant chunks using cosine similarity
 6. **Generate** — feeds the retrieved chunks + question to `gemini-3.5-flash`, instructed to answer only from the provided context (reduces hallucination)
 
-## Demo
-
-> Add a screenshot or GIF here showing a question and the answer your system returned.
 
 ## Tech Stack
 
